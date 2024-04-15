@@ -85,21 +85,18 @@ li {
 }
 
 @media (max-width: 1320px) {
-  /* For a screen < 960px, this CSS will be read */
   .container {
     width: 800px;
   }
 }
 
 @media (max-width: 1120px) {
-  /* For a screen < 720px, this CSS will be read */
   .container {
     width: 600px;
   }
 }
 
 @media (max-width: 920px) {
-  /* For a screen < 540px, this CSS will be read */
   .container {
     width: 400px;
   }
