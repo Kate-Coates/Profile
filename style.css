@@ -1,0 +1,106 @@
+body {
+  background-color: #B4B4B8;
+  background-image: url("images/binary-code-digital-technology-background-made-with-zeros-ones_601748-31413.jpeg");
+  font-family: 'Times New Roman', Times, serif;
+  color: #76ABAE;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 300;
+}
+
+h1, h2 {
+  font-family:Arial, Helvetica, sans-serif
+}
+
+h1 {
+  color: #76ABAE;
+  font-size: 30px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 18px;
+  color: rgb(238,238,238);
+}
+
+a {
+  color:darkgrey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #76ABAE;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  padding: 150px;
+
+}
+
+.card {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  background-color: #31363F;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  margin: 10px;
+}
+
+.button {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.btn-blue {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.07rem;
+  color: #76ABAE;
+  border: 2px solid #76ABAE;
+  padding: 8px 18px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+#social_links li {
+  padding: 10px;
+  display: inline;
+  font-size: 30px;
+}
+
+li {
+  text-align: match-parent;
+}
+
+@media (max-width: 1320px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 1120px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 920px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
